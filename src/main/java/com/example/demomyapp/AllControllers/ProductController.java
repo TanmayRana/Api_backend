@@ -10,6 +10,8 @@ import com.example.demomyapp.repositories.ProductRepository;
 import java.util.List;
 
 @RestController
+@CrossOrigin("*")
+
 @RequestMapping("/api/products")
 @RequiredArgsConstructor
 public class ProductController {

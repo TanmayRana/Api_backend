@@ -10,6 +10,8 @@ import com.example.demomyapp.repositories.MovieRepository;
 import java.util.List;
 
 @RestController
+@CrossOrigin("*")
+
 @RequestMapping("/api/movies")
 @RequiredArgsConstructor
 public class MovieController {

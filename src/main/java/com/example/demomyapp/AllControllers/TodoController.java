@@ -10,6 +10,7 @@ import com.example.demomyapp.repositories.TodoRepository;
 import java.util.List;
 
 @RestController
+@CrossOrigin("*")
 @RequestMapping("/api/todos")
 public class TodoController {
 

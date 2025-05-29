@@ -10,6 +10,8 @@ import com.example.demomyapp.repositories.CommentRepository;
 import java.util.List;
 
 @RestController
+@CrossOrigin("*")
+
 @RequestMapping("/api/comments")
 @RequiredArgsConstructor
 public class CommentController {

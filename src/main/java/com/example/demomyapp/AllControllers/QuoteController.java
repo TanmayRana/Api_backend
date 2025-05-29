@@ -10,6 +10,8 @@ import com.example.demomyapp.repositories.QuoteRepository;
 import java.util.List;
 
 @RestController
+@CrossOrigin("*")
+
 @RequestMapping("/api/quotes")
 @RequiredArgsConstructor
 public class QuoteController {

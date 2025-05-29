@@ -9,6 +9,8 @@ import com.example.demomyapp.repositories.DessertRepository;
 import java.util.List;
 
 @RestController
+@CrossOrigin("*")
+
 @RequestMapping("/api/desserts")
 public class DessertController {
 

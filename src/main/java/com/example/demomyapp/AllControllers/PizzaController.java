@@ -9,6 +9,8 @@ import com.example.demomyapp.repositories.PizzaRepository;
 import java.util.List;
 
 @RestController
+@CrossOrigin("*")
+
 @RequestMapping("/api/pizzas")
 public class PizzaController {
 

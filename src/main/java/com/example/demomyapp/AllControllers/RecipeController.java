@@ -10,6 +10,8 @@ import com.example.demomyapp.repositories.RecipeRepository;
 import java.util.List;
 
 @RestController
+@CrossOrigin("*")
+
 @RequestMapping("/api/recipes")
 public class RecipeController {
 
